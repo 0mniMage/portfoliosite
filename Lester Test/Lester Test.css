@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 48;
+    color: blue;
+}
+
+#Preface {
+    font-size: 26;
+    color: red;
+    font-weight: bold;
+}
+
+#Quiz_Preface, #Start {
+    font-size: 20;
+}
+
+#Quiz_Instructions {
+    font-size: 15;
+    line-height: 125%;
+}
+
