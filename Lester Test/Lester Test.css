@@ -1,25 +1,39 @@
 body {
     font-family: sans-serif;
     font-size: 100%;
+    line-height: 125%;
 }
 
 h1 {
-    font-size: 48;
+    font-size: 48px;
     color: blue;
+    text-align: center;
 }
 
 #Preface {
-    font-size: 26;
+    font-size: 26px;
     color: red;
     font-weight: bold;
 }
 
 #Quiz_Preface, #Start {
-    font-size: 20;
+    font-size: 20px;
 }
 
 #Quiz_Instructions {
-    font-size: 15;
-    line-height: 125%;
+    font-size: 15px;
 }
 
+#Button {
+    border: none; /* Stupid Macs */
+    border-radius: 8px;
+    width: 105px;
+    height: 32px;
+}
+
+ ol { /* Can't get this to center the question number too without large white space */
+    display: inline-block; 
+    margin-left: auto; /* these margins might be the culprit, examine later */
+    margin-right: auto;
+    text-align: center;
+}
