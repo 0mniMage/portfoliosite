@@ -16,4 +16,8 @@ function opSummer() {
 }
 
 
-$(document).ready();
+$(document).ready(function() {
+    $("button").click(function() {
+        $("#Q1").toggle();
+        alert("Success!");
+})});

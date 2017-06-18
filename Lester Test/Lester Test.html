@@ -4,7 +4,8 @@
         <title>The Lester Attitudes About Death Test</title>
 		<h1>Lester Test</h1> <!--Test various font sizes-->
         <link rel="stylesheet" type="text/css" href="Lester Test.css"/>
-        <script type="text/javascript" src="Lester Test.js"></script>
+        <script src="jquery-3.2.1.js"></script>
+        <script src="Lester Test.js"></script>
 	</head><br/><br/>
 
 	<body>
@@ -21,18 +22,18 @@
 
 		<p>You can learn more about the test <a href="https://www.researchgate.net/publication/247870592_The_Lester_Attitude_Toward_Death_Scale">here</a>.</p>
 
-        <div id="Start"><p>To get started, click here.</p></div>
+        <div id="Start"><p>To get started, click <button type="button" id="StartB">here.</button></p></div>
         <form>
             <ol> <!-- There has to be a better way to organize the questions -->
                 <div id="Q1"><li><p>What we call death is only the birth of the soul into a new and delightful life.</p>
                     <input type="radio" name="Q1" value="(A)gree">Agree<br/>
                     <input type="radio" name="Q1" value="(D)isagree">Disagree<br/><br/>
-                    <button type="button" id="Button" onclick="alert('This is only a test')">></button>
+                    <button type="button" id="Button">></button>
                 </li></div>  
                 <div id="Q2"><li><p>One should not grieve over the dead, because they are eternally happy in heaven.</p>
                     <input type="radio" name="Q2" value="(A)gree">Agree<br/>
                     <input type="radio" name="Q2" value="(D)isagree">Disagree<br/>
-                    <button type="button" id="Button" onclick="alert('This is only a test')">></button>
+                    <button type="button" id="Button">></button>
                 </li></div>
                 <div id="Q3"><li><p>Death comes to comfort us.</p>
                     <input type="radio" name="Q3" value="(A)gree">Agree<br/>

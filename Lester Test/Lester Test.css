@@ -37,3 +37,7 @@ h1 {
     margin-right: auto;
     text-align: center;
 }
+
+form {
+    display: none;
+}
